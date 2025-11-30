@@ -1,4 +1,4 @@
-import { LatLngBounds } from 'leaflet';
+import type { LatLngBounds } from 'leaflet';
 
 export type IndexType = 'lst' | 'ndvi' | 'ndbi' | 'lulc';
 
@@ -92,4 +92,3 @@ export interface RasterFile {
   upload_date: string;
   user_id?: string;
 }
-

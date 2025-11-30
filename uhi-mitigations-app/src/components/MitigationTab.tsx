@@ -8,7 +8,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
-import { IndexType, CorrelationDataPoint, HeatmapGeoJson, Project } from '../types';
+import type { IndexType, CorrelationDataPoint, HeatmapGeoJson, Project } from '../types';
 import { useMapContext } from '../context/MapContext';
 import { mockVisualizeIndex, getProjects, createProject, saveMitigationArea, saveSimulation, saveRasterFile } from '../utils/api';
 import { downloadFile, calculateGeodesicArea } from '../utils/mapUtils';

@@ -1,6 +1,7 @@
-import { createContext, useContext, ReactNode } from 'react';
+import { createContext, useContext } from 'react';
+import type { ReactNode } from 'react';
 import L from 'leaflet';
-import { BasemapType, IndexType } from '../types';
+import type { BasemapType, IndexType } from '../types';
 
 interface MapContextType {
   map: L.Map | null;

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import 'leaflet-draw';
-import { BasemapType, IndexType } from '../types';
+import type { BasemapType, IndexType } from '../types';
 import { calculateGeodesicArea } from '../utils/mapUtils';
 
 export const useMap = (mapContainerRef: React.RefObject<HTMLDivElement>) => {

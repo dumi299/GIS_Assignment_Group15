@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BasemapType } from '../types';
+import type { BasemapType } from '../types';
 import { useMapContext } from '../context/MapContext';
 
 export const BasemapsTab = () => {

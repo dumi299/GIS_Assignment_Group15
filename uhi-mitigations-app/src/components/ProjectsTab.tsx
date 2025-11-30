@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Project, SimulationResult } from '../types';
+import type { Project, SimulationResult } from '../types';
 import { getProjects, getProject, deleteProject, createProject } from '../utils/api';
 import { useMapContext } from '../context/MapContext';
 import L from 'leaflet';

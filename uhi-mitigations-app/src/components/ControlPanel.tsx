@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TabType } from '../types';
+import type { TabType } from '../types';
 import { MitigationTab } from './MitigationTab';
 import { LayersTab } from './LayersTab';
 import { BasemapsTab } from './BasemapsTab';
